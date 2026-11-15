@@ -18,6 +18,10 @@ A warlock HUD for **World of Warcraft: Forever** (Interface 16001). This is the 
 2. Put the folder in `World of Warcraft/_forever_/Interface/AddOns/` and make sure it is named exactly `ForeverWarlockHUD2`.
 3. Restart the game or `/reload`. Type `/fwl2` to open the menu.
 
+**It only starts on a warlock.** On a character of any other class it stays completely off: nothing
+on screen, no events, nothing saved, and `/fwl2` just says which class it is for. So you can
+leave every class's HUD enabled and only the right one runs.
+
 Optional companions (the HUD works without them):
 - **ForeverArt** - menu artwork: a painted backdrop, a header picture and a class crest.
 - **ForeverFonts** - extra typefaces for the Text options.
